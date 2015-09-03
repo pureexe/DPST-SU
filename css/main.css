@@ -1,0 +1,180 @@
+h1 {
+  font-family: 'silpakorn70newregular' !important; }
+
+h2 {
+  font-family: 'silpakorn70newregular' !important; }
+
+h3 {
+  font-family: 'silpakorn70newregular' !important; }
+
+footer.page-footer {
+  margin-top: 0px !important; }
+
+.card .card-image .card-title {
+  font-family: 'silpakorn70newregular' !important;
+  text-shadow: 0 0 3px #FFF, 0 0 5px #444 !important; }
+.card .card-content .card-title {
+  font-family: 'silpakorn70newregular' !important;
+  color: #444 !important; }
+
+.parallex-fade {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff; }
+  .parallex-fade div {
+    width: 100%; }
+
+.image-singlecard {
+  position: relative;
+  margin: 0.5rem 0 0rem 0;
+  background-color: #fff;
+  transition: box-shadow .25s;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+
+/*.page-content{
+  ul li:before{ content:"-"; position:relative; left:-5px;}
+}
+*/
+/**
+ * Site header
+ */
+body {
+  background-color: #fafafa; }
+
+#page-nav {
+  background-color: #007A6D; }
+
+.header-brand-logo {
+  font-family: silpakorn70newregular;
+  font-size: 1.3rem !important;
+  line-height: 1.5rem;
+  margin-top: 10px;
+  margin-left: 5px;
+  text-align: center; }
+  @media screen and (max-width: 600px) {
+    .header-brand-logo {
+      margin-left: 0px;
+      margin-top: 5px; } }
+
+#student-dropdown li a, #alumni-dropdown li a, #staff-dropdown li a {
+  font-size: 1rem !important; }
+
+.page-content {
+  min-height: calc(100vh - 289px) !important; }
+
+/**
+ * Site footer
+ */
+.site-footer {
+  background-color: #26a69a !important;
+  flex: 1 0 auto; }
+
+.footer-copyright {
+  background-color: #007A6D !important; }
+
+/**
+ * Site nav
+ */
+.side-nav-mobile .menu-item {
+  color: black; }
+.side-nav-mobile .menu-subitem {
+  margin-left: 1.5rem;
+  color: #666; }
+
+/**
+ * post-banner
+ */
+.post-banner {
+  height: 300px !important; }
+
+.cover-image {
+  width: 100% !important;
+  height: calc(100vh - 64px) !important; }
+  @media screen and (max-width: 993px) {
+    .cover-image {
+      height: calc(100vh - 56px) !important; } }
+
+#landing-information {
+  padding: 4% 0%; }
+
+#landing-event {
+  padding: 4% 0%; }
+  #landing-event .card {
+    height: 300px; }
+    @media screen and (max-width: 993px) {
+      #landing-event .card {
+        height: auto; } }
+
+#landing-register {
+  padding: 8% 20%; }
+
+#landing-award {
+  padding: 4% 0%;
+  background-color: #dbbf56;
+  color: white; }
+  #landing-award .card {
+    width: 100%; }
+
+.award-card .award-content {
+  color: #909090;
+  padding: 20px; }
+  .award-card .award-content .award-profile {
+    margin-top: 20px;
+    color: black; }
+    .award-card .award-content .award-profile .award-image {
+      float: right;
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 3px solid #f6f6f6; }
+      .award-card .award-content .award-profile .award-image img {
+        width: 100%;
+        height: 100%; }
+    .award-card .award-content .award-profile .award-info {
+      padding-top: 15px;
+      margin-left: 18px; }
+      .award-card .award-content .award-profile .award-info .award-name {
+        font-size: 1.1rem; }
+      .award-card .award-content .award-profile .award-info .award-des {
+        font-size: 0.8rem; }
+
+#member .card {
+  width: 100%;
+  height: auto; }
+  @media screen and (max-width: 993px) {
+    #member .card {
+      height: auto; } }
+
+.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
+  font-family: 'silpakorn70newregular' !important; }
+.post-content h1, .post-content h2 {
+  border-bottom-color: #eeeeee;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding-bottom: 0.3em; }
+.post-content h1 {
+  font-size: 3.5rem;
+  line-height: 110%;
+  margin: 1.7rem 0 1rem 0; }
+.post-content h2 {
+  font-size: 2.5rem;
+  line-height: 110%;
+  margin: 1.2rem 0 1rem 0; }
+.post-content h3 {
+  font-size: 2.2rem;
+  line-height: 110%;
+  margin: 1.2rem 0 1rem 0; }
+.post-content h4 {
+  font-size: 1.5rem; }
+.post-content img {
+  max-width: 100%;
+  height: auto; }
+.post-content div > img.center {
+  display: block;
+  margin: auto;
+  text-align: center; }
+.post-content p {
+  text-indent: 2rem;
+  margin-top: 1rem !important;
+  margin-bottom: 0.5rem !important; }
