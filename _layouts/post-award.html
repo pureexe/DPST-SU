@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<div class="container">
+<div class="row" style="margin-top:2rem;">
+<div class="col l4 m12 s12 offset-l4">
+<div class="card award-card waves-effect waves-dark" style="width: 100%;">
+  <div class="award-content">
+    {{ page.summary }}
+    <div class="award-profile">
+      <div class="award-image">
+        <img src="{{ page.face-image }}" />
+      </div>
+      <div class="award-info">
+        <div class="award-name">
+          {{ page.name }}
+        </div>
+        <div class="award-des">
+          {{ page.description }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+  <div class="card">
+    <div class="card-content">
+      <article class="post-content">
+        {{ content }}
+      </article>
+    </div>
+  </div>
+</div>

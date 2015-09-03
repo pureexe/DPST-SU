@@ -1,0 +1,24 @@
+<div id="landing-news" style="padding: 4% 0%;background-color:#80cbc4;color:white;">
+  <div class="container">
+    <div class="center"><h2>ข่าวสาร</h2></div>
+    <div class="row">
+      {% for post in site.categories.news limit:3 %}
+      <div class="col l4 m12 s12">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <div class="card waves-effect waves-dark">
+            <div class="card-content">
+              <span class="card-title">{{post.title}}</span>
+              <p style="color:#444">{{post.summary}}</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="center">
+    <a class="btn-flat waves-effect waves-dark" style="color:#fff;border-color:#fff;border-style:solid;border-width:1px;" href="/news">
+      ดูข่าวสารทั้งหมด
+    </a>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<div id="member-cover" style="width:100%;">
+  <div class="center"><h1>{{page.title}}</h1></div>
+</div>
+<div id="member">
+  <div class="container">
+    <div class="row">
+    {% for member in page.member %}
+      <div class="col l4 m12 s12">
+        <div class="card waves-effect waves-dark">
+          <div class="card-image">
+            {% if member.image == null %}
+            <img src="/images/student/no-image.jpg">
+            {% else %}
+            <img src="{{member.image}}">
+            {% endif %}
+            <span class="card-title">
+              {{member.name}} {% if member.nickname != null %}({{member.nickname}}){% endif %}
+            </span>
+          </div>
+          <div class="card-content">
+            <p style="color:#444">
+              <div class="truncate">{{member.description}}</div>
+              {% if member.subject != null %}
+              <div class="truncate"><span><i class="mdi-social-school"></i></span> {{member.subject}}</div>
+              {% endif %}
+              {% if member.email != null %}
+              <div class="truncate"><span><i class="mdi-communication-email"></i></span> <span>{{member.email}}</span></div>
+              {% else %}
+              <div class="truncate"><span><i class="mdi-communication-email"></i></span> <span>ไม่ระบุ</span></div>
+              {% endif %}
+            </p>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+</div>

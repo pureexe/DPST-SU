@@ -1,0 +1,36 @@
+<div id="landing-award">
+  <div class="container">
+    <div class="center"><h2>ผลงาน</h2></div>
+    <div class="row">
+      {% for post in site.categories.award limit:3 %}
+      <div class="col l4 m12 s12">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <div class="card award-card waves-effect waves-dark">
+            <div class="award-content">
+              {{ post.summary }}
+              <div class="award-profile">
+                <div class="award-image">
+                  <img src="{{ post.face-image }}" />
+                </div>
+                <div class="award-info">
+                  <div class="award-name">
+                    {{ post.name }}
+                  </div>
+                  <div class="award-des">
+                    {{ post.description }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="center">
+    <a class="btn-flat waves-effect waves-light lighten-1" style="color:white;border-style:solid;border-width:1px;" href="/award">
+      ดูผลงานทั้งหมด
+    </a>
+  </div>
+</div>

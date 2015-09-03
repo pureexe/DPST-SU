@@ -1,0 +1,25 @@
+---
+layout: default
+title: ข่าวสาร
+summary:
+image:
+---
+<div id="page-event">
+  <div class="container">
+    <div class="center"><h1>ข่าวสาร</h1></div>
+    <div class="row">
+      {% for post in site.categories.news %}
+      <div class="col l4 m12 s12">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <div class="card waves-effect waves-dark">
+            <div class="card-content">
+              <span class="card-title">{{post.title}}</span>
+              <p style="color:#444">{{post.summary}}</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

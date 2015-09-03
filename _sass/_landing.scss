@@ -1,0 +1,62 @@
+.cover-image{
+  width:100% !important;
+  height:calc(100vh - 64px) !important;
+  @include media-query($on-tablet) {
+      height:calc(100vh - 56px) !important;
+  }
+}
+#landing-information{
+  padding: 4% 0%;
+}
+#landing-event{
+  padding: 4% 0%;
+  .card{
+    height:300px;
+    @include media-query($on-tablet) {
+      height: auto;
+    }
+  }
+}
+#landing-register{
+  padding: 8% 20%;
+}
+#landing-award{
+  padding: 4% 0%;
+  background-color:#dbbf56;
+  color: white;
+  .card{
+    width: 100%;
+  }
+}
+.award-card{
+  .award-content{
+    color: #909090;
+    padding:20px;
+    .award-profile{
+      margin-top:20px;
+      color:black;
+      .award-image{
+        float: right;
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 3px solid #f6f6f6;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .award-info{
+        padding-top:15px;
+        margin-left:18px;
+        .award-name{
+          font-size:1.1rem;
+        }
+        .award-des{
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}

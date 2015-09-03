@@ -1,0 +1,34 @@
+---
+layout: default
+title: กิจกรรม
+summary:
+image:
+---
+<div id="page-event">
+  <div class="container">
+    <div class="center"><h1>กิจกรรม</h1></div>
+    <div class="row">
+      {% for post in site.categories.event %}
+      <div class="col l4 m12 s12">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <div class="card waves-effect waves-dark">
+            {% if post.image %}
+            <div class="card-image">
+              <img src="{{post.image}}">
+              <span class="card-title">{{post.title}}</span>
+            </div>
+            {% endif %}
+            <div class="card-content">
+              {% if post.image %}
+              {% else %}
+              <span class="card-title">{{post.title}}</span>
+              {% endif %}
+              <p style="color:#444">{{post.summary}}</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

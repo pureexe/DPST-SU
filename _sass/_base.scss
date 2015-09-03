@@ -1,0 +1,45 @@
+h1{
+  font-family: 'silpakorn70newregular' !important;
+}
+h2{
+  font-family: 'silpakorn70newregular' !important;
+}
+h3{
+  font-family: 'silpakorn70newregular' !important;
+}
+footer.page-footer {
+  margin-top: 0px !important;
+}
+.card{
+  .card-image{
+      .card-title{
+        font-family: 'silpakorn70newregular' !important;
+        text-shadow: 0 0 3px #FFF, 0 0 5px #444 !important;
+      }
+  }
+  .card-content{
+    .card-title{
+      font-family: 'silpakorn70newregular' !important;
+      color:#444 !important;
+    }
+  }
+}
+.parallex-fade{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  div{
+    width:100%;
+  }
+}
+.image-singlecard{
+  position: relative;
+  margin: 0.5rem 0 0rem 0;
+  background-color: #fff;
+  transition: box-shadow .25s;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+/*.page-content{
+  ul li:before{ content:"-"; position:relative; left:-5px;}
+}
+*/

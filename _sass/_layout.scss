@@ -1,0 +1,60 @@
+/**
+ * Site header
+ */
+ body{
+   background-color:#fafafa;
+ }
+#page-nav{
+  background-color: $primary-color;
+}
+
+.header-brand-logo{
+    font-family: silpakorn70newregular;
+    font-size: 1.3rem !important;
+    line-height: 1.5rem;
+    margin-top: 10px;
+    margin-left: 5px;
+    text-align: center;
+    @include media-query($on-phone) {
+      margin-left: 0px;
+      margin-top: 5px;
+    }
+}
+#student-dropdown,#alumni-dropdown,#staff-dropdown{
+  li{
+    a{
+      font-size: 1rem !important;
+    }
+  }
+}
+.page-content{
+    min-height: calc(100vh - 289px) !important;
+}
+/**
+ * Site footer
+ */
+.site-footer{
+  background-color: $accent-color !important;
+  flex: 1 0 auto;
+}
+.footer-copyright{
+  background-color: $primary-color !important;
+}
+/**
+ * Site nav
+ */
+.side-nav-mobile{
+  .menu-item{
+    color:black;
+  }
+  .menu-subitem{
+    margin-left:1.5rem;
+    color:#666;
+  }
+}
+/**
+ * post-banner
+ */
+.post-banner{
+  height:300px !important;
+}
