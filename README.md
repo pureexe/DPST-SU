@@ -6,7 +6,7 @@
 ##เว็บไซต์นี้สร้างด้วย
 - [Jekyll](http://jekyllrb.com)
 - [Jquery](http://jquery.com)
-- [MaterializeCSS](http://materailizecss.com)
+- [MaterializeCSS](http://materializecss.com)
 - [WOW.js](http://mynameismatthieu.com/WOW/)
 - [animate.css](https://daneden.github.io/animate.css/)
 
