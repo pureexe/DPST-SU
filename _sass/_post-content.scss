@@ -36,8 +36,19 @@
        text-align: center
   }
   p{
-    text-indent: 2rem;
     margin-top: 1rem !important;
     margin-bottom: 0.5rem !important;
+  }
+  p::first-letter{
+    margin-left: 2rem;
+  }
+  ul{
+    padding-left: 1.5rem;
+    li:before{
+      padding-right: 0.5rem;
+    }
+    li{
+      list-style-type: circle;
+    }
   }
 }

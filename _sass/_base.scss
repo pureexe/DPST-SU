@@ -39,7 +39,22 @@ footer.page-footer {
   border-radius: 2px;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }
-/*.page-content{
-  ul li:before{ content:"-"; position:relative; left:-5px;}
+.width-100{
+  width:100%;
 }
-*/
+.padding-top-1rem{
+  padding-top:1rem;
+}
+.color-444{
+  color:#444 !important;
+}
+.no-margin-left-right{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.font-size-36{
+  font-size:36px;
+}
+.margin-top-1rem{
+  margin-top:1rem;
+}

@@ -60,3 +60,22 @@
     }
   }
 }
+#goToInformation{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  left:0px;
+  cursor: pointer;
+}
+.btn-light-border{
+  color:white !important;
+  border-style:solid !important;
+  border-width:1px !important;
+  border-color:#fff !important;
+}
+.btn-dark-boder{
+  color:#444 !important;
+  border-color:#444 !important;
+  border-style:solid !important;
+  border-width:1px !important;
+}

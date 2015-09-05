@@ -1,11 +1,12 @@
 # Site settings
 title: โครงการพสวท. และทุนเรียนดี
-email: your-email@domain.com
-description: โครงการพสวท. และโครงการเรียนดี ศูนย์มหาวิทยาลัยศิลปากร 
-baseurl: "" # the subpath of your site, e.g. /blog/
+email: phanchat_n@silpakorn.edu
+description: โครงการพสวท. และโครงการเรียนดี ศูนย์มหาวิทยาลัยศิลปากร
 url: "http://dpst.sc.su.ac.th" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+#fb_admin:
+#fb_publisher:
+
+#twitter:
 
 # Build settings
 permalink: /:categories/:title.html

@@ -39,6 +39,10 @@
 }
 .footer-copyright{
   background-color: $primary-color !important;
+  .container{
+    padding-left:10px;
+    padding-right:10px;
+  }
 }
 /**
  * Site nav
@@ -52,9 +56,30 @@
     color:#666;
   }
 }
-/**
- * post-banner
- */
+
+// _layout
 .post-banner{
   height:300px !important;
+}
+.card-slider{
+  padding-bottom: 0.75rem;
+}
+.gold-background{
+  background-color: #dbbf56;
+  .container{
+    padding-top: 1rem;
+  }
+}
+.card-award-cover{
+  width: 100%;
+  margin-bottom:1.5rem !important;
+}
+#member{
+  .card{
+    width: 100%;
+    height: auto;
+    @include media-query($on-tablet) {
+      height: auto;
+    }
+  }
 }
